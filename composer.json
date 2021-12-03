@@ -1,0 +1,16 @@
+{
+    "name": "oberonlai/ifps-upload",
+    "require": {
+        "a7/autoload": "^2.1",
+        "oberonlai/wp-option": "^1.0",
+        "oberonlai/wp-asset": "^1.0",
+        "oberonlai/wp-ajax": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Oberon Lai",
+            "email": "m615926@gmail.com"
+        }
+    ]
+}

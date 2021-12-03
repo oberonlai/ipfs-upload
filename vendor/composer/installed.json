@@ -1,0 +1,185 @@
+{
+    "packages": [
+        {
+            "name": "a7/autoload",
+            "version": "2.1",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a7/autoload.git",
+                "reference": "2d4a63c88150869883e43ad04e04b81125b55fd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a7/autoload/zipball/2d4a63c88150869883e43ad04e04b81125b55fd9",
+                "reference": "2d4a63c88150869883e43ad04e04b81125b55fd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "time": "2019-03-28T11:26:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "package.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "A7",
+                    "email": "a7@fastmail.com",
+                    "homepage": "https://github.com/a7"
+                }
+            ],
+            "description": "Automatically and recursively require_once all php files in a given directory.",
+            "support": {
+                "issues": "https://github.com/a7/autoload/issues",
+                "source": "https://github.com/a7/autoload/tree/2.1"
+            },
+            "install-path": "../a7/autoload"
+        },
+        {
+            "name": "oberonlai/wp-ajax",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oberonlai/wp-ajax.git",
+                "reference": "34faa6045b50e8be22af5ba43596499d36b39079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oberonlai/wp-ajax/zipball/34faa6045b50e8be22af5ba43596499d36b39079",
+                "reference": "34faa6045b50e8be22af5ba43596499d36b39079",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2021-07-20T02:39:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ODS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oberon Lai",
+                    "email": "m615926@gmail.com",
+                    "homepage": "https://oberonlai.blog"
+                }
+            ],
+            "description": "Handy tool for WordPress Ajax.",
+            "homepage": "https://github.com/oberonlai/wp-ajax",
+            "support": {
+                "issues": "https://github.com/oberonlai/wp-ajax/issues",
+                "source": "https://github.com/oberonlai/wp-ajax/tree/v1.0.1"
+            },
+            "install-path": "../oberonlai/wp-ajax"
+        },
+        {
+            "name": "oberonlai/wp-asset",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oberonlai/wp-asset.git",
+                "reference": "c358c2186706f150e608ba601076e00f7f6c4da6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oberonlai/wp-asset/zipball/c358c2186706f150e608ba601076e00f7f6c4da6",
+                "reference": "c358c2186706f150e608ba601076e00f7f6c4da6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2021-07-20T02:34:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ODS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oberon Lai",
+                    "email": "m615926@gmail.com",
+                    "homepage": "https://oberonlai.blog"
+                }
+            ],
+            "description": "Handy tool for wp_enqueue_scripts.",
+            "homepage": "https://github.com/oberonlai/wp-asset",
+            "support": {
+                "issues": "https://github.com/oberonlai/wp-asset/issues",
+                "source": "https://github.com/oberonlai/wp-asset/tree/v1.0.2"
+            },
+            "install-path": "../oberonlai/wp-asset"
+        },
+        {
+            "name": "oberonlai/wp-option",
+            "version": "v1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oberonlai/wp-option.git",
+                "reference": "44b2a24f029875de7e00aa8ce95b59f85850edaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oberonlai/wp-option/zipball/44b2a24f029875de7e00aa8ce95b59f85850edaf",
+                "reference": "44b2a24f029875de7e00aa8ce95b59f85850edaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2021-07-03T02:26:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ODS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oberon Lai",
+                    "email": "m615926@gmail.com",
+                    "homepage": "https://oberonlai.blog"
+                }
+            ],
+            "description": "Adding option page for WordPress.",
+            "homepage": "https://github.com/oberonlai/wp-option",
+            "support": {
+                "issues": "https://github.com/oberonlai/wp-option/issues",
+                "source": "https://github.com/oberonlai/wp-option/tree/v1.0.4"
+            },
+            "install-path": "../oberonlai/wp-option"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
